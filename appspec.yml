@@ -1,5 +1,4 @@
 version: 0.0
-<<<<<<< HEAD
 os: linux
 files:
   - source: /scripts
@@ -19,9 +18,3 @@ hooks:
   AfterInstall:
     - location: scripts/afterinstall
       runas: root
-
-=======
-files:
-	- source: /root/
-	  destination: /var/www/html/
->>>>>>> 79d4bcc6e664d191fe0c795d8a73d8a89d1a28f4
