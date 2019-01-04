@@ -1,0 +1,2 @@
+1632887225
+a:20:{i:0;s:20:"arthimpact_emi_table";i:1;s:36:"arthimpact_preprocessing_request_log";i:2;s:12:"blocked_user";i:3;s:8:"borrower";i:4;s:17:"django_migrations";i:5;s:9:"doc_group";i:6;s:8:"doc_info";i:7;s:3:"emi";i:8;s:4:"loan";i:9;s:9:"loan_lead";i:10;s:20:"loan_lead_doc_status";i:11;s:17:"loan_product_type";i:12;s:13:"loan_products";i:13;s:10:"loan_stage";i:14;s:11:"transaction";i:15;s:6:"vendor";i:16;s:18:"vendor_preapproval";i:17;s:22:"vendor_product_mapping";i:18;s:19:"vendor_response_log";i:19;s:20:"vendor_stage_mapping";}
