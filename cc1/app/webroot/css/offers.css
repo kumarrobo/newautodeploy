@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+body, p, ul, ol, li, h1, h2, h3, form {margin:0px; padding:0px;}
+body{text-align:center; font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size:0.9em; color:#000;}
+img{border:0px; }
+.bg{background: url(/img/offers_images/bg.gif) #FFFFFF repeat-x;}
+
+/*Common Styles*/
+.clearBoth{clear:both}
+.leftFloat{float:left}
+.rightFloat{float:right}
+.clearLeft{clear:left}
+a, a:visited{text-decoration:none; color:#0167a9;}
+a:hover{background:none;}
+.cssBut, a.cssBut:hover{
+	border:1px solid #f2a322 !important;
+	-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;
+	background: #fbe063 url(/img/offers_images/butOrangeBG.png) left top repeat-x;
+	font-weight:bold; font-size:13px;
+	background: -moz-linear-gradient(top, #fffae8, #fbe063);
+	background:	-webkit-gradient(linear, 0 0, 0 100%, from(#fffae8), to(#fbe063));
+	font-family: 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: bold;
+	cursor:pointer;
+	padding:5px 25px !important;
+}
+
+/*header*/
+.headerIndex {  margin-bottom:1px; background:url(/img/offers_images/headerBG2.gif) top left repeat-x; height:105px;}
+.headerMainCont { margin:0 auto; width:999px; text-align:left; padding:20px 0;}
+.ossLogo{background: url('/img/offers_images/logo.gif') left 0; width: 320px; height:80px; float:left}
+.logo{background: url('/img/offers_images/logo.gif') right 0; width: 230px; height:80px; float:right}
+
+/*Container*/
+.mainCont { margin:0 auto; width:995px; text-align:left;padding:20px 0}
+/*Winners Display*/
+.mainColumnLeft{float:left;width:600px;}
+.mainColumnRight{float:left;border-left:#ccc 1px solid;width:330px;margin-left:20px; padding:0 20px;}
+
+/*Winners Display*/
+.mainColumnLeft1{float:left;width:800px;}
+.mainColumnRight1{float:left;border-left:#ccc 1px solid;width:330px;margin-left:20px; padding:0 20px; display:none}
+
+
+h1{color:#FF4615; font-size:2.5em; text-align:center}
+h2{color:#FF4615; font-size:2em; text-align:center}
+h3{color:#FF4615; font-size:1.4em; text-align:center}
+.pBlueBig{color:#0167A9; font-size:1.4em;font-weight:bold}
+
+.box{float:left; margin-right:20px;font-size:1em;}
+.box span{color:#222;font-weight:bold;display:block;text-align:center}
+.gift{background-image:url('/img/offers_images/gift.gif'); background-repeat:no-repeat; }
+.g1{background-position:0 0; width:85px; height:100px;}
+.g2{background-position:-100px 0; width:130px; height:100px;}
+.g3{background-position:-240px 0; width:110px; height:100px;}
+.g4{background-position:-363px 0; width:95px; height:100px;}
+.g5{background-position:-477px 0; width:125px; height:100px;}
+.g6{background-position:-623px 0; width:120px; height:100px;}
+.g7{background-position:-766px 0; width:120px; height:100px;}
+
+
+.boxBp{margin-top:20px; padding-bottom:20px; border-bottom:#e8e8e8 1px solid; font-size:1.05em; display:block}
+.boxBp{color:#222;}
+.ossBP{background-image:url('/img/offers_images/ossbp.png'); background-repeat:no-repeat; width:90px; height:90px; float:left}
+.giftSm{background-image:url('/img/offers_images/giftSm.gif'); background-repeat:no-repeat; float:right}
+.g1Sm{background-position:0 0; width:42px; height:50px;}
+.g2Sm{background-position:-50px 0; width:65px; height:50px;}
+.g3Sm{background-position:-120px 0; width:55px; height:50px;}
+.g4Sm{background-position:-181px 0; width:47px; height:50px;}
+.g5Sm{background-position:-238px 0; width:62px; height:50px;}
+.g6Sm{background-position:-311px 0; width:60px; height:50px;}
+.g7Sm{background-position:-383px 0; width:60px; height:50px;}
+
+.activate{background-image:url('/img/offers_images/activate.jpg'); background-repeat:no-repeat; }
+.a1{background-position:right 0; width:100px; height:100px; }
+.a2{background-position:-365px 25px; width:170px; height:125px; }
+.a3{background-position:0 0px; width:325px; height:120px; }
+.a4{background-position:0 -130px; width:480px; height:165px; }
+.a5{background-position:0 -285px; width:570px; height:265px; }
+.a6{background-position:right -130px; width:65px; height:30px; }
+
+.goa { background-image:url('/img/offers_images/gogoa.gif'); background-repeat:no-repeat; }
+.goa1 { background-position:0px 25px; width:349px; height:202px; }
+
+.activate1{background-image:url('/img/offers_images/tss.jpg'); background-repeat:no-repeat; }
+.b1{background-position:0 0; width:310px; height:120px; }
+.b2{background-position:0 -140px; width:390px; height:115px; }
+.b3{background-position:0 -270px; width:585px; height:245px; }
+
+.mainTitle{color:#FF4615; font-size:1.2em; font-weight:bold}
+.subTitle{color:#222; font-size:1.1em;font-weight:bold; margin-top:20px}
+.subTitle p{font-weight:normal}	
+
+/*Footer*/
+#footer{padding:5px 14px 5px 20px; border-top: 1px solid #EC724A; background:#efefef; margin-top:10px; font-size:0.75em; text-align:center;}
+#footer a {padding: 6px;}
+.popOutline { background:url(/img/popupBG.png); padding:10px; }
+.popCont { top:0px; background:#fff; padding:10px; padding-top:0px; }
+.popContWidth { max-width:900px; }
+.popClose {  font-size:1.0em; font-weight:bold; position:relative;right: -10px; top:-1px; border-left:1px solid #66a3cb; border-bottom:1px solid #66a3cb;}
+.popClose a{ padding: 1px 5px; }
+.popClose1 { border-bottom:1px solid #66A3CB; border-left:1px solid #66A3CB; font-size:0.6em; font-weight:bold; position:relative; right:-15px;top:-6px; }
+.popClose1 a{ padding:0 3px 1px;}
+
+fieldset { border:0px;margin:0;padding:0}
+
+fieldset.fields legend { font-size:1.1em; border:1px; color:#EC724A; font-family:'Trebuchet MS';font-weight:bold; padding-bottom:25px;}
+fieldset.fields { border:1px solid #cccccc; margin:0px 20px 10px 10px; padding:10px }
+.signUp input { font-size:0.9em; padding:5px; }
+/* .signUp { height:285px; }  */
+
+.field { padding-bottom:10px; }
+.fieldLabelMand { width:8px; color:#FF0000; }
+.fieldLabel { width:200px; }
+/*.fieldDetail { margin-left:8px; }*/
+.fieldLabelSpace { margin-left:200px; }
+.fieldLabelSmall { width:100px; }
+.fieldLabelSmallSpace { margin-left:105px; }
+
+input, textarea { border: 1px solid #4d5e69; padding:2px }
+input[type="image"] { border:0px; padding:0px; }
+input[type="button"] { border:0px; padding:0px; cursor:pointer }
+input[type="checkbox"],input[type="radio"] { border:0px; padding:0px; }
+textarea { font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; font-size:1em; }
+.editSMS { height:133px; width:295px; }
+
+.otherSprite {  background-image:url('/img/otherSprite.png?127'); background-repeat:no-repeat; }
+.oSPos7 { background-position:-151px -312px; width:68px; height:23px; }

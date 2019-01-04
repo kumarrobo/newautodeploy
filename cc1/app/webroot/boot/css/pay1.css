@@ -1,0 +1,12 @@
+.panel-pay1 {
+    border-color: #d9534f;
+}
+.panel-pay1 > .panel-heading {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: #fff;
+}
+table
+{
+    font-size: 12px;
+}

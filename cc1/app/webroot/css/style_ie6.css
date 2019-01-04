@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+.indexCat { margin:0px; padding:0px; list-style:none; }
+
+.indexCat li { margin-right:5px;margin-top:7px; }
+
+.indexCat li div { 
+		display:block; width:135px; height:135px; 
+		/*border:1px solid #ccc; */
+		
+		background:#f8f8f8 url(/img/whiteBg.png) top left no-repeat; 
+		text-align:center; 
+}
+.indexCat li div:hover { 
+		 
+		background:url(/img/whiteBg.png) top right no-repeat;
+}
+
+.imageGrp1 { margin-right:5px; }
+
+.imageGrp1 img, .imageGrp2 img { left:5px; top:0 }
+
+span.catName { margin:10px 10px 0px; }
+
+.points2 li { float:left; margin-right:5px; margin-top:0px; width:118px; }
+.points2 li a { background:url(/img/whiteBg.png) left -160px no-repeat;
+	height:115px; width:112px; background-repeat:no-repeat; display:block; }
+.points2 li a:hover { background:url(/img/whiteBg.png) right -160px no-repeat;
+	background-repeat:no-repeat; display:block; }
+	
+.priceBox .css3But1 {
+	padding: 0 .25em;
+    width: 130px !important;  /* IE table-cell margin fix */
+    overflow: visible;
+	}
+	
+/* Gif files for ie6 */
+/* Other SPrite */
+.paginationNo span.current { background:url('/img/gifite.gif?123') no-repeat -152px -383px; }
+.paginationNo span a:hover, .paginationNo span a.curr  { background:url('/img/otherSprite.gif?123') no-repeat -152px -383px;}
+.carousalTitle img {  background-image: url('/img/otherSprite.gif?123'); }
+.horizontal_carousel .previous_button img { background:url('/img/otherSprite.gif?123') -168px -182px no-repeat; }
+.horizontal_carousel .previous_button_disabled img { background:url('/img/otherSprite.gif?123') -216px -182px no-repeat; }
+.horizontal_carousel .next_button img { background:url('/img/otherSprite.gif?123') -180px -130px no-repeat; }
+.horizontal_carousel .next_button_disabled img { background:url('/img/otherSprite.gif?123') -227px -130px no-repeat; }
+.previous_button1 img { background:url('/img/otherSprite.gif?123') -100px -57px no-repeat; }
+.previous_button1_disabled img { background:url('/img/otherSprite.gif?123') -292px -56px no-repeat; }
+.next_button1 img { background:url('/img/otherSprite.gif?123') -98px -38px no-repeat; }
+.next_button1_disabled img { background: url('/img/otherSprite.gif?123') -290px -37px no-repeat; }
+.nNotice { background: url('/img/otherSprite.gif?123') no-repeat -115px -158px; }
+.day7Back { background:url('/img/otherSprite.gif?123') -3px -104px no-repeat; }
+.day7Smaller { background: transparent url('/img/otherSprite.gif?123') no-repeat -5px -200px !important; }
+.otherSprite {  background-image:url('/img/otherSprite.gif?123'); }
+
+/* butGroup */
+a.buttSprite1 img, a.buttSprite img { background:url(/img/butGroup.gif);  }
+
+.imageGrp1 img { background:url(/img/categories2.gif); }
+.imageGrp2 img { background:url(/img/categories1.gif); }
+.thumbImage img, .thumbImage1 img { background-image: url(/img/packages/package1.gif?123); }
+img.package_23, img.package_140, img.package_141, img.package_142, img.package_143, img.package_144, img.package_145, img.package_146, img.package_147, img.package_148, img.package_24, img.package_25, img.package_26, img.package_27, img.package_28, img.package_29, img.package_30, img.package_31, img.package_32, img.package_52, img.package_53, img.package_54, img.package_55, img.package_56, img.package_57, img.package_58, img.package_59, img.package_60, img.package_61, img.package_62 , img.package_63, img.package_64 , img.package_65, img.package_66, img.package_67, img.package_68, img.package_69, img.package_135 { background-image: url(/img/packages/package2.gif?123) !important; }
+img.package_40, img.package_42, img.package_43, img.package_44, img.package_51, img.package_138, img.package_139, img.package_38, img.package_41, img.package_45, img.package_46, img.package_47, img.package_48, img.package_49, img.package_50, img.package_99, img.package_98, img.package_106, img.package_107, img.package_108, img.package_109, img.package_110, img.package_111, img.package_112, img.package_113, img.package_114, img.package_115, img.package_116, img.package_117, img.package_118, img.package_119, img.package_120, img.package_121, img.package_122, img.package_123, img.package_124, img.package_125, img.package_126, img.package_127, img.package_128, img.package_129, img.package_130, img.package_131, img.package_132, img.package_133, img.package_134, img.package_18, img.package_153, img.package_154 { background-image: url(/img/packages/package3.gif?123) !important; }
+
+
+/* Sign up in Header */
+
+.signup_TL { background:url(/img/signup_TL.gif) no-repeat 0 0; }
+.signup_TR { background:url(/img/signup_TR.gif) no-repeat right 0; }
+.signup_L { background:url(/img/signup_L.gif) repeat-y 8px 0; }
+.signup_R { background:url(/img/signup_R.gif) repeat-y right 0; }
+.signup_BL { background:url(/img/signup_BL.gif) repeat-y 8px 0; }
+.signup_BR { background:url(/img/signup_BR.gif) repeat-y right 0; }
+.signup_B { background:url(/img/signup_B.pif); }
+
+/* Gif files for ie6 ends */
+
+.positionSlogan { bottom: -15px; left: 92px; }
+.positionIndiOnly { left:545px; width:200px; }
+.adsFreePos { right:5px; top:-10px; }
+.gridBoxElement { width:233px; }
+.widthie1 { width:770px; background:#ddd; }
+
+.sublist ul { margin:0px; padding-bottom:0px; }
+.ie6Hide { height:0px; font-size:0px; }
+
+.adjust1 { margin-left:0px; float:left; }
+
+.inlineBlock { display:inline; zoom:1; }
+.inlineBlockElement, .inlineBlockElementNew { zoom:1; display:inline; }
+
+.tabs ul li.sel a, .tabs ul li.sel a:hover { padding:10px 10px 4px 10px; }
+
+/* For ie 6 */
+
+.orOpt span { top:-12px;left:15%; }
+
+.tabs ul li.sel a, .tabs ul li.sel a:hover { padding:10px 10px 4px 10px; }
+.packBox { margin: 10px 20px 15px 5px; padding-top: 3px; }
+.rupeeBkt,.rupee1,.rupee2 {height:14px !important; position:fixed; top: 0px;}
+.leftCol3 { width:70px; }
+.horizontal_carousel .container .leftCol3, .leftCol3 { float:left; display:block; padding-right:2px; } /* position:relative; */
+
+.imageGrp1 img {  position:static; height:96px; }.imageGrp2 img {  position:static;height:96px; }
+.catImg { height:80px; display:block; position:static; }
+.appSmallBox { width:100%; }
+.appSmallBoxie6 { width:350px; }
+
+.indexCat li { 
+		margin-right:10px; 
+		margin-top:12px; 
+}
+.adjust1 { margin-left:0px; float:left; width:230px; }
+.oldSMS { overflow:visible; }
+.day7Smaller { background: transparent url('/img/otherSprite.png?123') no-repeat -5px -200px !important; height: 32px !important; width: 32px !important;}
+.posRlative { position:static; }
+
+.packageDetail1 { margin-right:10px; width:300px; }
+.packageDetail2 { width: 150px; }
+
+.day7Smaller { display:none; }
+.paginationNo span.current { background: url("/img/otherSprite.gif?123") no-repeat scroll -152px -383px transparent;color: #fff; height: 16px; padding: 1px 0 2px; text-align: center; width: 23px; }
+a.buttSprite img.butSubscribe { background-position: 0 -33px;width: 89px; }
+a.buttSprite img.butOk { background-position: 0 -359px; width: 34px; }
+a.buttSprite1 img, a.buttSprite img { background: url("/img/butGroup.png") no-repeat scroll 0 0 transparent; }
+.butColumn { margin-left: 10px;padding-top: 15px; }
+
+.gridBoxElement, .gridBoxElementLast { display:inline; zoom:1;width:200px; }
+
+.gridBox {  }
+input {
+    border: 0 none;
+    padding: 0;
+}
+
+.posRlative { position:static; }
+.antina { display:none; }
+.dataTable1 { width:99%; }
+.dataTable2 { width:99%; }
+.appRemRepeatBox { display: none; background: none; border: 0px solid rgb(85, 85, 85); padding: 0px 0px 12px 12px; margin-bottom: 20px; }
+
+
+/* For ie 6 ends */
+.inIEretailImage { zoom:1; display:inline; }

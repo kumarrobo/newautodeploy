@@ -1,0 +1,106 @@
+body{font-family: 'Open Sans', sans-serif;background-color: #efefef;}
+.logo img{width:120px;}
+header{padding: 5px 0;border-bottom: 1px solid #ddd;}
+.details{padding-top: 15px;text-align: center;}
+.name{display: inline-block;padding-right: 10px;}
+.logout{display: inline-block;padding-right: 10px;}
+
+/*Filter Panel*/
+.filter-panel{padding: 15px 0;}
+.filter-panel .input-group-addon{background-color: transparent;border-right: 0px ;border-left: 1px solid #ccc;}
+.filter-panel .verified{background-color: #2196F3;color: #fff;padding: 5px 10px;display: block;width: 100px;margin: 1px auto;text-align: center;}
+.filter-panel .review{background-color: #2196F3;color: #fff;padding: 5px 10px;display: block;width: 100px;margin: 1px auto;text-align: center;}
+.filter-panel .verified:hover,.filter-panel .review:hover{text-decoration: none;}
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: transparent; 
+    border-radius: 0px;
+    opacity: 0.5;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: rgb(82, 82, 82);
+}
+.more-less {
+    float: right;
+}
+
+.pending-main .panel-heading{background-color: transparent;}
+.pending-main {border-color: #FF9800}
+.pending-main .more-less{color: #FF9800;}
+.closed-main .panel-heading{background-color: transparent;}
+.closed-main{border-color: #009688}
+.closed-main .more-less{color: #009688;}
+
+.pending-main .panel-title > a{color: #FF9800;}
+
+.closed-main .panel-title > a{color: #009688;}
+
+.profile-detail span{display: block;padding: 3px;}
+
+.pending-main .profile-link{display: inline-block;padding: 10px 10px 10px 0;font-size: 16px;}
+.pending-main .profile-link:hover{text-decoration: none;}
+.pending-main .col-md-12,.pending-main .col-md-3{padding:0px;}
+.pending-main .download{background-color: #2196F3;color: #fff;padding: 5px 10px;display: inline-block;width: 150px;margin: 1px auto;text-align: center;}
+.pending-main .download:hover{text-decoration: none;}
+.profile-detail .col-md-3 a:hover{text-decoration: none;}
+.profile-detail .col-md-3 a{padding: 7px 0;display: block;}
+.pending-main img,.closed-main img{padding-bottom: 10px;width:100%;}
+
+
+
+.closed-main .profile-link{display: inline-block;padding: 10px 10px 10px 0;font-size: 16px;}
+.closed-main .profile-link:hover{text-decoration: none;}
+.closed-main .download{background-color: #2196F3;color: #fff;padding: 5px 10px;display: inline-block;width: 150px;margin: 1px auto;text-align: center;}
+.closed-main .download:hover{text-decoration: none;}
+.closed-main .col-md-12,.closed-main .col-md-3{padding:0px;}
+
+.carousel.slide input {
+    overflow: hidden;
+    width: 100%;
+}
+
+.owl-prev {float: left;}
+.owl-next {display: inline-block;float: right;}
+.carousel-control{width: 2%;color: #333;}
+.carousel-control:hover{color: #333;}
+.carousel-control.left,.carousel-control.right{background-image: none;}
+.profile-detail .col-md-4{text-align: center;}
+.carousel-inner .col-md-3 {margin: 0 0 0 55px;}
+.col-md-3.closed-main {border: 1px solid #009688;text-align: center; padding: 10px;border-radius: 4px;}
+.col-md-3.pending-main {border: 1px solid #FF9800;text-align: center; padding: 10px;border-radius: 4px;}
+/**/
+
+
+/*Details Page*/
+section{margin: 15px 15px;background-color: #fff;box-shadow: 3px 4px 18px 0px #ddd;padding: 15px 20px;overflow: hidden;}
+section .customer-details span{display: block;font-size: 18px;color: #212121;padding-bottom: 5px;}
+.detail-head{border-bottom: 1px solid #ccc;padding: 5px 0px;}
+.detail-head span{display: block;}
+.detail-head .col-md-3, .detail-head .col-md-9{padding: 0px;}
+.detail-head h3{margin:0px;}
+.accept{color: #009688;float: right;font-size: 24px;margin-right: 30px;}
+.accept:hover{color: #009688;}
+.reject{color: #F44336;float: right;font-size: 24px;}
+.reject:hover{color: #F44336;}
+
+.detail-content .form{margin-top: 20px;border-right: 1px solid #ccc;padding-right: 35px;}
+.detail-content .doc-images{margin: 20px 0 0 0;}
+.detail-content .doc-images a img{display: block;width: 100%;}
+.detail-content .doc-images a img:focus{outline: 0;}
+.detail-content .doc-images span{display: block;padding-top: 10px;}
+.detail-content .doc-images span a.view{float: right;font-size: 20px;padding-right: 10px;}
+.detail-content .doc-images span a.download{float: right;font-size: 20px;}
+.detail-content .doc-images span a i{color: #212121;}
+/**/

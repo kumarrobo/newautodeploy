@@ -1,0 +1,58 @@
+.padding-top-5 {
+    padding-top: 5px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .input-group {
+        margin-bottom: 5px;
+    }
+}
+
+.form-control {
+    /*width: 100px;*/
+}
+
+.brand {
+    max-height: 25px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 90%;
+    display: none;
+}
+
+.flash_message {
+    text-align: center;
+    color: #808080;
+}
+
+.table-class {
+    width: 100%;
+    margin-top: 20px;
+    line-height: 1.7em;
+}

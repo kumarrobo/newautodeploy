@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /cc.pay1.in
+  - source: /cc1
     destination: /var/www/html/cc.pay1.in
 hooks:
   BeforeInstall:
