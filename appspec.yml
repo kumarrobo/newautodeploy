@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /scripts
-    destination: /var/www/html/scripts
+  - source: /cc.pay1.in
+    destination: /var/www/html/cc.pay1.in
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
