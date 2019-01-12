@@ -1,7 +1,7 @@
 <!DOCTYPE html >
 <html>
 <head>
-<title>MASHLOG LOGIN FORM</title>
+<title>Milind LOGIN FORM</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="body_bg">
