@@ -7,7 +7,7 @@
 <body id="body_bg">
 <div <div align="center">
 
-<h3>MASHLOG LOGIN FORM</h3>
+<h3>Milind LOGIN FORM</h3>
     <form id="login-form" method="post" action="authen_login.php" >
         <table border="0.5" >
             <tr>
